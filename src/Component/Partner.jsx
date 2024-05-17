@@ -13,36 +13,36 @@ export default function Partner() {
 
   return (
     <div className='bg-gray-200 pt-16'>
-     <p className='text-[2.5rem] text-center font-bold font-sans'>
+     <p className='text-[3.2rem] text-center font-bold font-sans'>
      OUR PARTNERS AND SUPORTERS
      </p>
      {/* ------------------------slider----------------------- */}
      <div className='flex gap-3 pt-10 justify-between px-3'>
         <div className='bg-slate-700 p-2 rounded-2xl'>
-            <img src={slide1} alt="" className='rounded-2xl h-44'/>
+            <img src={slide1} alt="" className='rounded-2xl h-48'/>
         </div>
         <div className='bg-slate-700 p-2 rounded-2xl'>
-            <img src={slide2} alt="" className='rounded-2xl h-44'/>
+            <img src={slide2} alt="" className='rounded-2xl h-48'/>
         </div>
         <div className='bg-slate-700 p-2 rounded-2xl'>
-            <img src={slide3} alt="" className='rounded-2xl h-44'/>
+            <img src={slide3} alt="" className='rounded-2xl h-48'/>
         </div>
         <div className='bg-slate-700 p-2 rounded-2xl'>
-            <img src={slide4} alt="" className='rounded-2xl h-44'/>
+            <img src={slide4} alt="" className='rounded-2xl h-48'/>
         </div>
         <div className='bg-slate-700 p-2 rounded-2xl'>
-            <img src={slide5} alt="" className='rounded-2xl h-44'/>
+            <img src={slide5} alt="" className='rounded-2xl h-48'/>
         </div>
      </div>
      {/* ----------------------------Appointment---------------------------- */}
      <div className='mt-16 bg-green-600 p-12 m-5 rounded-3xl text-white pb-14'>
-        <p className='text-sm font-sans italic font-light'>Wanna travel with evisa?</p>
+        <p className='text-[1.2rem] font-sans italic font-light'>Wanna travel with evisa?</p>
         <div className='flex justify-between'>
             <div>
-            <p className='text-[2.5rem] pt-1 font-bold tracking-tighter'>Create Unforgettable</p>
-            <p className='text-[2.5rem]  font-bold tracking-tighter'>Moments with Us</p>
+            <p className='text-[3.3rem] pt-1 font-bold tracking-tighter'>Create Unforgettable</p>
+            <p className='text-[3.3rem]  font-bold tracking-tighter'>Moments with Us</p>
             </div>
-            <div className='px-8 py-3 mt-7 bg-white w-fit h-fit rounded-3xl text-sm font-semibold font-mono  text-black hover:bg-green-700 hover:text-white cursor-pointer'>
+            <div className='px-10 py-4 mt-7 bg-white w-fit h-fit rounded-[1.7rem] text-[1.1rem] font-semibold font-mono  text-black hover:bg-green-700 hover:text-white cursor-pointer'>
                 <p onClick={()=>{navigate("contact")}}>Book a Appionment's </p>
             </div>
         </div>

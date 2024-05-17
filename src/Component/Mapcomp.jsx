@@ -46,7 +46,7 @@ function MapComponent() {
         <MapContainer
           center={position || [0, 0]}
           zoom={position ? 13 : 1}
-          className="h-[90vh] w-[45vw]"
+          className="h-[80vh] w-[40vw]"
         >
           <TileLayer
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
